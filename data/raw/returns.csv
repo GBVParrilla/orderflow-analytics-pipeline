@@ -1,0 +1,81 @@
+return_id,order_id,return_date,reason,status,refund_amount
+RET-0001,ORD-00396,2025-04-26,Better price found,pending,1593.71
+RET-0002,ORD-00156,2026-04-24,Better price found,rejected,418.85
+RET-0003,ORD-00085,2026-03-24,Wrong item shipped,pending,452.38
+RET-0004,ORD-00172,2026-01-27,Wrong item shipped,approved,109.12
+RET-0005,ORD-00309,2025-05-24,Defective product,approved,523.47
+RET-0006,ORD-00419,2024-07-05,Better price found,pending,119.8
+RET-0007,ORD-00407,2025-10-20,Changed mind,approved,168.23
+RET-0008,ORD-00217,2024-12-12,Arrived too late,pending,403.34
+RET-0009,ORD-00320,2026-04-09,Better price found,approved,1153.42
+RET-0010,ORD-00073,2024-07-12,Defective product,pending,318.81
+RET-0011,ORD-00213,2024-08-16,Not as described,approved,11.49
+RET-0012,ORD-00028,2024-09-24,Does not fit,rejected,727.9
+RET-0013,ORD-00415,2025-05-03,Not as described,pending,135.65
+RET-0014,ORD-00116,2026-03-21,Duplicate order,approved,192.39
+RET-0015,ORD-00102,2024-07-01,Does not fit,approved,382.91
+RET-0016,ORD-00347,2024-07-24,Changed mind,rejected,564.94
+RET-0017,ORD-00184,2025-12-26,Changed mind,approved,204.62
+RET-0018,ORD-00079,2025-01-07,Wrong item shipped,approved,142.4
+RET-0019,ORD-00388,2025-04-20,Defective product,pending,1044.53
+RET-0020,ORD-00376,2024-08-27,Not as described,pending,164.84
+RET-0021,ORD-00448,2026-04-27,Better price found,approved,1160.99
+RET-0022,ORD-00047,2025-01-30,Changed mind,approved,78.27
+RET-0023,ORD-00060,2025-03-15,Better price found,approved,349.21
+RET-0024,ORD-00381,2024-07-05,Defective product,pending,198.71
+RET-0025,ORD-00033,2025-03-19,Duplicate order,approved,1221.99
+RET-0026,ORD-00124,2025-12-30,Duplicate order,pending,899.18
+RET-0027,ORD-00311,2026-04-27,Duplicate order,rejected,146.15
+RET-0028,ORD-00476,2024-11-27,Does not fit,approved,412.11
+RET-0029,ORD-00471,2025-12-03,Better price found,rejected,473.3
+RET-0030,ORD-00143,2025-10-11,Does not fit,approved,56.96
+RET-0031,ORD-00004,2024-08-16,Duplicate order,pending,488.97
+RET-0032,ORD-00168,2025-09-26,Not as described,rejected,680.47
+RET-0033,ORD-00352,2026-02-12,Not as described,pending,190.31
+RET-0034,ORD-00485,2024-07-25,Defective product,approved,137.37
+RET-0035,ORD-00451,2024-11-20,Defective product,approved,874.46
+RET-0036,ORD-00497,2025-07-04,Defective product,rejected,391.32
+RET-0037,ORD-00219,2025-06-21,Defective product,approved,190.13
+RET-0038,ORD-00224,2025-03-24,Better price found,pending,216.98
+RET-0039,ORD-00009,2025-04-25,Better price found,approved,523.18
+RET-0040,ORD-00165,2025-12-23,Duplicate order,rejected,96.31
+RET-0041,ORD-00104,2025-11-14,Wrong item shipped,approved,640.87
+RET-0042,ORD-00443,2025-12-14,Changed mind,rejected,728.67
+RET-0043,ORD-00272,2025-05-16,Defective product,approved,845.59
+RET-0044,ORD-00107,2026-02-28,Does not fit,rejected,34.55
+RET-0045,ORD-00103,2025-02-23,Changed mind,approved,128.53
+RET-0046,ORD-00276,2024-10-09,Duplicate order,pending,62.38
+RET-0047,ORD-00265,2025-10-07,Not as described,approved,146.04
+RET-0048,ORD-00387,2025-01-09,Defective product,approved,518.21
+RET-0049,ORD-00134,2024-10-06,Changed mind,approved,994.01
+RET-0050,ORD-00279,2025-05-13,Defective product,rejected,84.86
+RET-0051,ORD-00238,2025-09-05,Duplicate order,pending,851.58
+RET-0052,ORD-00479,2026-05-23,Changed mind,approved,237.4
+RET-0053,ORD-00457,2026-01-14,Better price found,approved,529.73
+RET-0054,ORD-00072,2024-09-18,Duplicate order,approved,746.7
+RET-0055,ORD-00414,2025-04-08,Does not fit,approved,660.77
+RET-0056,ORD-00354,2024-07-06,Duplicate order,rejected,1443.17
+RET-0057,ORD-00339,2024-09-19,Defective product,approved,768.62
+RET-0058,ORD-00007,2024-08-30,Does not fit,approved,264.53
+RET-0059,ORD-00185,2026-01-12,Arrived too late,approved,154.31
+RET-0060,ORD-00290,2026-02-09,Better price found,pending,1565.36
+RET-0061,ORD-00334,2026-02-06,Wrong item shipped,rejected,886.3
+RET-0062,ORD-00268,2025-09-03,Better price found,approved,1067.08
+RET-0063,ORD-00472,2024-10-15,Arrived too late,approved,345.54
+RET-0064,ORD-00132,2026-05-03,Arrived too late,pending,1089.19
+RET-0065,ORD-00496,2025-09-25,Wrong item shipped,rejected,537.86
+RET-0066,ORD-00035,2025-04-30,Better price found,rejected,409.3
+RET-0067,ORD-00142,2026-05-29,Better price found,pending,207.54
+RET-0068,ORD-00466,2026-06-09,Does not fit,approved,422.06
+RET-0069,ORD-00432,2026-03-22,Wrong item shipped,rejected,296.37
+RET-0070,ORD-00137,2025-10-12,Better price found,rejected,746.52
+RET-0071,ORD-00436,2025-10-03,Better price found,pending,2059.61
+RET-0072,ORD-00223,2024-10-28,Duplicate order,rejected,940.54
+RET-0073,ORD-00332,2026-01-05,Does not fit,pending,242.76
+RET-0074,ORD-00003,2024-12-05,Wrong item shipped,approved,816.45
+RET-0075,ORD-00037,2024-09-28,Wrong item shipped,approved,410.75
+RET-0900,ORD-MISSING-0,2026-03-09,Defective product,pending,99.91
+RET-0901,ORD-MISSING-1,2026-02-11,Defective product,pending,47.26
+RET-0902,ORD-MISSING-2,2026-01-27,Defective product,pending,40.04
+RET-0903,ORD-MISSING-3,2026-02-11,Defective product,pending,60.44
+RET-0904,ORD-MISSING-4,2025-12-02,Defective product,pending,67.38

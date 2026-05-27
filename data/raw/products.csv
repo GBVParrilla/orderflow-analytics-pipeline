@@ -1,0 +1,101 @@
+product_id,product_name,category,unit_price,cost_price,stock_qty,is_active
+PROD-0001,Wireless Earbuds,Electronics,246.34,153.47,218,False
+PROD-0002,USB-C Hub,Electronics,270.18,158.3,243,False
+PROD-0003,Laptop Stand,Electronics,85.16,39.33,326,True
+PROD-0004,Mechanical Keyboard,Electronics,232.08,123.08,320,True
+PROD-0005,Webcam,Electronics,89.62,37.58,146,True
+PROD-0006,Monitor,Electronics,88.79,42.61,276,True
+PROD-0007,Running Shoes,Clothing,50.12,22.95,355,True
+PROD-0008,Denim Jacket,Clothing,214.85,89.39,208,True
+PROD-0009,Polo Shirt,Clothing,167.35,84.33,105,False
+PROD-0010,Yoga Pants,Clothing,122.94,72.84,484,True
+PROD-0011,Winter Coat,Clothing,258.44,152.84,194,False
+PROD-0012,Sneakers,Clothing,11.7,5.71,385,False
+PROD-0013,Air Fryer,Home & Kitchen,257.49,164.37,214,True
+PROD-0014,Coffee Maker,Home & Kitchen,151.58,70.97,248,True
+PROD-0015,Blender,Home & Kitchen,122.76,69.63,408,False
+PROD-0016,Cutting Board,Home & Kitchen,220.0,134.23,470,True
+PROD-0017,Knife Set,Home & Kitchen,294.4,157.07,464,False
+PROD-0018,Toaster,Home & Kitchen,181.64,102.76,42,False
+PROD-0019,Resistance Bands,Sports,49.34,25.43,25,True
+PROD-0020,Yoga Mat,Sports,119.93,54.32,167,True
+PROD-0021,Dumbbell Set,Sports,230.75,114.17,385,False
+PROD-0022,Jump Rope,Sports,83.15,34.96,9,True
+PROD-0023,Water Bottle,Sports,299.96,146.23,332,True
+PROD-0024,Foam Roller,Sports,236.55,133.16,386,True
+PROD-0025,Data Engineering Fundamentals,Books,285.38,128.38,10,True
+PROD-0026,SQL Cookbook,Books,79.17,41.04,58,True
+PROD-0027,Python for Data Analysis,Books,144.85,67.22,188,True
+PROD-0028,Clean Code,Books,185.7,119.02,367,True
+PROD-0029,Designing Data-Intensive Applications,Books,235.55,103.86,159,True
+PROD-0030,Face Serum,Beauty,177.81,112.42,294,False
+PROD-0031,Moisturizer,Beauty,125.02,72.36,38,True
+PROD-0032,Shampoo,Beauty,39.54,23.45,435,True
+PROD-0033,Lip Balm,Beauty,240.9,130.44,21,True
+PROD-0034,Sunscreen,Beauty,164.49,93.0,35,True
+PROD-0035,LEGO Set,Toys,13.66,6.9,250,True
+PROD-0036,Board Game,Toys,135.71,66.57,456,False
+PROD-0037,Puzzle,Toys,215.11,109.46,375,True
+PROD-0038,RC Car,Toys,188.6,118.8,396,False
+PROD-0039,Action Figure,Toys,144.8,87.81,303,True
+PROD-0040,Car Phone Mount,Automotive,103.46,47.73,478,True
+PROD-0041,Dash Cam,Automotive,90.88,46.59,384,False
+PROD-0042,Tire Inflator,Automotive,175.25,99.38,172,True
+PROD-0043,Car Vacuum,Automotive,153.34,73.8,249,True
+PROD-0044,Seat Covers,Automotive,112.89,52.45,143,True
+PROD-0045,Reduced user-facing info-mediaries,Electronics,108.15,48.43,123,True
+PROD-0046,User-friendly value-added encoding,Toys,102.82,60.62,243,True
+PROD-0047,Optimized didactic circuit,Automotive,95.14,38.47,150,True
+PROD-0048,Customer-focused context-sensitive data-,Sports,86.83,40.01,297,True
+PROD-0049,Grass-roots leadingedge installation,Beauty,99.91,53.23,217,True
+PROD-0050,Function-based optimizing approach,Beauty,76.83,39.45,156,True
+PROD-0051,Pre-emptive national hub,Books,53.79,31.22,161,True
+PROD-0052,Total bifurcated functionalities,Clothing,151.14,96.38,94,True
+PROD-0053,Quality-focused interactive leverage,Sports,51.1,26.63,268,True
+PROD-0054,Synergized dynamic focus group,Books,196.29,119.38,151,True
+PROD-0055,Digitized high-level leverage,Sports,78.56,37.36,273,True
+PROD-0056,Universal holistic function,Home & Kitchen,62.11,39.97,283,True
+PROD-0057,Ameliorated secondary portal,Books,142.5,61.5,251,True
+PROD-0058,Automated user-facing protocol,Clothing,175.81,95.56,240,True
+PROD-0059,Business-focused system-worthy toolset,Automotive,93.68,41.79,26,True
+PROD-0060,Synchronized disintermediate extranet,Books,188.79,98.06,33,True
+PROD-0061,Reactive human-resource function,Toys,103.42,56.29,27,True
+PROD-0062,Sharable tangible hierarchy,Home & Kitchen,38.34,20.73,155,True
+PROD-0063,Synergized bottom-line monitoring,Clothing,198.83,85.42,213,True
+PROD-0064,Front-line leadingedge info-mediaries,Sports,157.37,77.91,226,True
+PROD-0065,Advanced hybrid extranet,Books,173.42,112.29,156,True
+PROD-0066,Innovative background system engine,Electronics,125.82,73.61,106,True
+PROD-0067,Front-line exuding database,Sports,60.27,25.33,122,True
+PROD-0068,Diverse leadingedge product,Home & Kitchen,114.87,50.44,209,True
+PROD-0069,Intuitive zero administration project,Automotive,140.97,72.95,16,True
+PROD-0070,Open-source 5thgeneration focus group,Sports,64.73,30.47,232,True
+PROD-0071,Configurable zero-defect matrix,Clothing,140.59,88.71,101,True
+PROD-0072,Phased user-facing installation,Toys,31.8,14.51,76,True
+PROD-0073,Managed transitional interface,Books,167.05,69.8,84,True
+PROD-0074,Cross-platform cohesive standardization,Books,123.05,74.58,147,True
+PROD-0075,Fundamental motivating architecture,Automotive,33.62,19.24,206,True
+PROD-0076,Multi-channeled intangible portal,Books,105.08,55.0,41,True
+PROD-0077,Upgradable neutral support,Electronics,178.98,104.46,128,True
+PROD-0078,Inverse logistical solution,Electronics,27.34,17.51,294,True
+PROD-0079,Assimilated well-modulated application,Electronics,199.91,113.56,137,True
+PROD-0080,Stand-alone secondary contingency,Electronics,154.98,68.78,265,True
+PROD-0081,Self-enabling leadingedge utilization,Automotive,184.04,81.97,299,True
+PROD-0082,Stand-alone client-driven ability,Toys,130.6,68.29,46,True
+PROD-0083,Open-architected dedicated product,Automotive,76.1,36.78,53,True
+PROD-0084,Integrated foreground orchestration,Home & Kitchen,72.65,41.66,147,True
+PROD-0085,Configurable bifurcated complexity,Toys,164.57,88.46,232,True
+PROD-0086,Fully-configurable multi-state structure,Clothing,69.75,33.54,206,True
+PROD-0087,Visionary solution-oriented task-force,Electronics,134.95,72.29,211,True
+PROD-0088,De-engineered radical software,Electronics,45.63,22.38,255,True
+PROD-0089,Open-source foreground knowledge user,Automotive,154.39,69.61,281,True
+PROD-0090,Polarized user-facing challenge,Home & Kitchen,186.25,94.9,248,True
+PROD-0091,Fundamental context-sensitive software,Clothing,15.48,8.63,122,True
+PROD-0092,Reverse-engineered fresh-thinking websit,Home & Kitchen,69.03,27.85,208,True
+PROD-0093,Horizontal dedicated artificial intellig,Clothing,52.68,32.15,58,True
+PROD-0094,Operative holistic contingency,Automotive,189.93,106.73,78,True
+PROD-0095,Object-based homogeneous orchestration,Automotive,187.19,88.53,139,True
+PROD-0096,Face-to-face 3rdgeneration adapter,Toys,168.59,108.75,124,True
+PROD-0097,Realigned secondary pricing structure,Automotive,114.73,56.89,260,True
+PROD-0098,Self-enabling discrete array,Home & Kitchen,174.16,81.69,212,True
+PROD-0099,Persistent dedicated firmware,Beauty,187.5,98.8,1,True
+PROD-0100,Total composite application,Books,147.94,90.15,296,True
