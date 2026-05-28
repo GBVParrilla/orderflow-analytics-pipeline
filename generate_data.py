@@ -29,7 +29,7 @@ OUTPUT_DIR = "data/raw"
 import os
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ── 1. CUSTOMERS (300 rows) ───────────────────────────────────────────────────
+# CUSTOMERS (300 rows)
 print("Generating customers...")
 
 STATES = ["VA", "MD", "DC", "NY", "CA", "TX", "FL", "GA", "IL", "WA"]
@@ -50,7 +50,7 @@ for i in range(1, 301):
         "created_at":    fake.date_between(start_date="-3y", end_date="-6m"),
     })
 
-# Inject ~5 duplicate emails for data quality checks
+# Inject 5 duplicate emails for data quality checks
 for i in range(5):
     dup = customers[i].copy()
     dup["customer_id"] = f"CUST-{900 + i:04d}"
@@ -62,7 +62,7 @@ customers_df.to_csv(f"{OUTPUT_DIR}/customers.csv", index=False)
 print(f"  ✓ customers.csv — {len(customers_df)} rows")
 
 
-# ── 2. PRODUCTS (100 rows) ────────────────────────────────────────────────────
+# 2. PRODUCTS (100 rows)
 print("Generating products...")
 
 CATEGORIES   = ["Electronics", "Clothing", "Home & Kitchen", "Sports", "Books", "Beauty", "Toys", "Automotive"]
@@ -113,7 +113,7 @@ products_df.to_csv(f"{OUTPUT_DIR}/products.csv", index=False)
 print(f"  ✓ products.csv — {len(products_df)} rows")
 
 
-# ── 3. ORDERS (500 rows) ──────────────────────────────────────────────────────
+# 3. ORDERS (500 rows) 
 print("Generating orders...")
 
 STATUSES    = ["completed", "completed", "completed", "shipped", "processing", "cancelled"]
@@ -136,11 +136,11 @@ for i in range(1, 501):
         "order_total":    None,  # will be filled after order_items
     })
 
-# Inject ~5 orders with NULL customer_id for data quality checks
+# Inject 5 orders with NULL customer_id for data quality checks
 for i in range(5):
     orders[random.randint(0, 499)]["customer_id"] = None
 
-# Inject ~3 duplicate order_ids for data quality checks
+# Inject 3 duplicate order_ids for data quality checks
 for i in range(3):
     dup = orders[i].copy()
     orders.append(dup)
@@ -150,7 +150,7 @@ orders_df.to_csv(f"{OUTPUT_DIR}/orders.csv", index=False)
 print(f"  ✓ orders.csv — {len(orders_df)} rows")
 
 
-# ── 4. ORDER ITEMS (1,000 rows) ───────────────────────────────────────────────
+# 4. ORDER ITEMS (1,000 rows)
 print("Generating order_items...")
 
 product_ids    = products_df["product_id"].tolist()
@@ -160,7 +160,7 @@ order_ids      = [o["order_id"] for o in orders[:500]]  # use non-duplicate orde
 order_items = []
 item_id = 1
 
-# Distribute ~1,000 items across 500 orders (avg 2 items per order)
+# Distribute 1,000 items across 500 orders (avg 2 items per order)
 for order_id in order_ids:
     num_items = random.choices([1, 2, 3, 4], weights=[40, 35, 15, 10])[0]
     chosen_products = random.sample(product_ids, min(num_items, len(product_ids)))
@@ -203,7 +203,7 @@ orders_df["order_total"] = orders_df["order_id"].map(totals).round(2)
 orders_df.to_csv(f"{OUTPUT_DIR}/orders.csv", index=False)  # overwrite with totals
 
 
-# ── 5. RETURNS (80 rows) ──────────────────────────────────────────────────────
+# 5. RETURNS (80 rows)
 print("Generating returns...")
 
 RETURN_REASONS = [
@@ -230,7 +230,7 @@ for i, order_id in enumerate(sampled_return_orders):
                          if pd.notna(order_row["order_total"]) else None,
     })
 
-# Inject ~5 returns with no matching order (orphan records)
+# Inject 5 returns with no matching order (orphan records)
 for i in range(5):
     returns.append({
         "return_id":    f"RET-{900+i:04d}",
@@ -246,7 +246,7 @@ returns_df.to_csv(f"{OUTPUT_DIR}/returns.csv", index=False)
 print(f"  ✓ returns.csv — {len(returns_df)} rows")
 
 
-# ── 6. SHIPPING EVENTS (500 rows) ─────────────────────────────────────────────
+# 6. SHIPPING EVENTS (500 rows) 
 print("Generating shipping_events...")
 
 CARRIERS   = ["UPS", "FedEx", "USPS", "DHL", "Amazon Logistics"]
@@ -275,7 +275,7 @@ for i, order_id in enumerate(sampled_ship):
         "tracking_number": fake.bothify(text="??##########??"),
     })
 
-# Inject ~10 shipments with invalid dates (ship_date AFTER delivered_at)
+# Inject 10 shipments with invalid dates (ship_date AFTER delivered_at)
 for i in range(10):
     base = fake.date_between(start_date="-1y", end_date="-1m")
     shipping_events.append({
@@ -295,8 +295,8 @@ shipping_events_df.to_csv(f"{OUTPUT_DIR}/shipping_events.csv", index=False)
 print(f"  ✓ shipping_events.csv — {len(shipping_events_df)} rows")
 
 
-# ── SUMMARY ───────────────────────────────────────────────────────────────────
-print("\n✅ All files saved to data/raw/\n")
+# SUMMARY 
+print("\n All files saved to data/raw/\n")
 print("─" * 45)
 print(f"{'Table':<22} {'Rows':>6}  {'File'}")
 print("─" * 45)
@@ -313,9 +313,9 @@ for name, df in [
     print(f"  {name:<20} {len(df):>6}  {path}  ({size/1024:.1f} KB)")
 print("─" * 45)
 print("\nData quality issues injected (for your pipeline to catch):")
-print("  • ~5 duplicate emails in customers")
-print("  • ~5 NULL customer_id in orders")
-print("  • ~3 duplicate order_ids in orders")
-print("  • ~4 orphan order_items (no matching order)")
-print("  • ~5 orphan returns (no matching order)")
-print("  • ~10 invalid ship dates (ship_date > actual_delivery)")
+print("  • 5 duplicate emails in customers")
+print("  • 5 NULL customer_id in orders")
+print("  • 3 duplicate order_ids in orders")
+print("  • 4 orphan order_items (no matching order)")
+print("  • 5 orphan returns (no matching order)")
+print("  • 10 invalid ship dates (ship_date > actual_delivery)")
