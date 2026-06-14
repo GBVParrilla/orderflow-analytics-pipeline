@@ -345,7 +345,7 @@ def main():
         log(f"  {'-'*12} {'-'*8} {'-'*12} {'-'*10}")
         for row in rows:
             log(f"  {str(row[0]):<12} {str(row[1]):>8} {str(row[2]):>12} {str(row[3]):>10}")
-    log()
+    log("")
 
 if __name__ == "__main__":
     main()

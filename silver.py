@@ -163,7 +163,7 @@ def main():
         for table in CLEANERS:
             count = conn.execute(text(f"SELECT COUNT(*) FROM silver_{table}")).scalar()
             log(f"  silver_{table:<22} {count:>6} rows")
-    log()
+    log("")
 
 if __name__ == "__main__":
     main()

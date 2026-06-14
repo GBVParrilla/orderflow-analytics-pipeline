@@ -1,0 +1,11 @@
+run_time,check_id,check_name,table,category,description,status,issue_count
+2026-06-14 16:26:23.780184,DQ-001,Duplicate order IDs,silver_orders,Uniqueness,Order IDs that appear more than once in the orders table.,FAIL,3
+2026-06-14 16:26:23.780184,DQ-002,Missing customer_id on orders,silver_orders,Completeness,Orders with no linked customer. Cannot attribute revenue.,FAIL,5
+2026-06-14 16:26:23.780184,DQ-003,Returns without matching order,silver_returns,Referential Integrity,Returns that reference an order_id that does not exist in orders.,FAIL,5
+2026-06-14 16:26:23.780184,DQ-004,Orders with no line items,silver_orders,Completeness,Orders that have no corresponding items in order_items.,PASS,0
+2026-06-14 16:26:23.780184,DQ-005,Invalid shipping dates,silver_shipping_events,Validity,Shipments where ship_date is after actual_delivery date.,FAIL,10
+2026-06-14 16:26:23.780184,DQ-006,Orphan order items,silver_order_items,Referential Integrity,Order items that reference an order_id that does not exist.,FAIL,4
+2026-06-14 16:26:23.780184,DQ-007,Duplicate customer emails,silver_customers,Uniqueness,Email addresses linked to more than one customer record.,FAIL,6
+2026-06-14 16:26:23.780184,DQ-008,Products with invalid price,silver_products,Validity,Products with zero/null price or cost exceeding selling price.,PASS,0
+2026-06-14 16:26:23.780184,DQ-009,Orders with null order_total,silver_orders,Completeness,Orders missing a total amount — cannot be used in revenue reporting.,PASS,0
+2026-06-14 16:26:23.780184,DQ-010,Returns with no refund amount,silver_returns,Completeness,Returns marked approved but with no refund amount recorded.,PASS,0
