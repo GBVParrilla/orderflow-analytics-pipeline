@@ -260,7 +260,7 @@ WITH shipping_with_days AS (
         _invalid_ship_date,
         CASE
             WHEN actual_delivery IS NOT NULL AND ship_date IS NOT NULL
-            THEN (actual_delivery - ship_date)
+            THEN EXTRACT(EPOCH FROM (actual_delivery - ship_date)) / 86400
             ELSE NULL
         END AS days_to_deliver,
         CASE
